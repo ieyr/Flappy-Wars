@@ -22,6 +22,7 @@ public class BirdMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		animator = transform.GetComponentInChildren<Animator>();
+		InvokeRepeating("shootUpdate", 0f, 1f);
 
 		if(animator == null) {
 			Debug.LogError("Didn't find animator!");
@@ -45,6 +46,8 @@ public class BirdMovement : MonoBehaviour {
 			}
 		}
 	}
+
+
 
 	
 	// Do physics engine updates here

@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\BGLooper.cs" />
      <Compile Include="Assets\BirdMovement.cs" />
+     <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\CameraTracksPlayer.cs" />
      <Compile Include="Assets\GroundMover.cs" />
      <Compile Include="Assets\Score.cs" />
