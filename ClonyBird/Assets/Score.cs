@@ -6,6 +6,7 @@ public class Score : MonoBehaviour {
 	static int score = 0;
 	static int highScore = 0;
 
+
 	static Score instance;
 
 	static public void AddPoint() {
@@ -39,6 +40,8 @@ public class Score : MonoBehaviour {
 	}
 
 	void Update () {
-		guiText.text = "Score: " + score + "\nHigh Score: " + highScore;
+		int lives = GameObject.FindGameObjectWithTag(bird1).lives;
+		guiText.text = "Score: " + score;
+		//guiText.text = "Lives: " + lives;
 	}
 }

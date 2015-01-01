@@ -15,6 +15,9 @@ public class BirdMovement : MonoBehaviour {
 	float deathCooldown;
 
 	public bool godMode = false;
+	public int lives = 3;
+	public string tag="";
+	public bool isShot = false;
 
 	// Use this for initialization
 	void Start () {
@@ -70,11 +73,13 @@ public class BirdMovement : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {
-		/*if(godMode)
+		if (isShot)
+			lives--;
+		if (lives > 0)
 			return;
 
 		animator.SetTrigger("Death");
 		dead = true;
-		deathCooldown = 0.5f;*/
+		deathCooldown = 0.5f;
 	}
 }
