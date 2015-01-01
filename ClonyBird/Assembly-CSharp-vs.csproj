@@ -50,6 +50,7 @@
      <Compile Include="Assets\BirdMovement.cs" />
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\CameraTracksPlayer.cs" />
+     <Compile Include="Assets\Compressed Gas Pistol\ReadMe.cs" />
      <Compile Include="Assets\GroundMover.cs" />
      <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\ScorePoint.cs" />
