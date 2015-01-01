@@ -40,8 +40,8 @@ public class Score : MonoBehaviour {
 	}
 
 	void Update () {
-		int lives = GameObject.FindGameObjectWithTag(bird1).lives;
-		guiText.text = "Score: " + score;
-		//guiText.text = "Lives: " + lives;
+		//int lives = GameObject.FindGameObjectWithTag(bird1).lives;
+		//guiText.text = "Score: " + score;
+		guiText.text = "Lives: " + BirdMovement.lives;
 	}
 }

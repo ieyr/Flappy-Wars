@@ -15,7 +15,7 @@ public class BirdMovement : MonoBehaviour {
 	float deathCooldown;
 
 	public bool godMode = false;
-	public int lives = 3;
+	public static int lives = 3;
 	public string tag="";
 	public bool isShot = false;
 
