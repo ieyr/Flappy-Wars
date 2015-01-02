@@ -5,7 +5,7 @@ public class Firing : MonoBehaviour {
 	public GameObject bulletPrefab;
 	// Use this for initialization
 	void Start () {
-		InvokeRepeating("FireBullet", 0f, 1f);
+		InvokeRepeating("FireBullet", 0f, 0.75f);
 	}
 	
 	// Update is called once per frame
@@ -25,6 +25,7 @@ public class Firing : MonoBehaviour {
  
  
          //add force to the spawned objected
+
         Clone.rigidbody2D.AddForce(Vector2.right*100);
  
         Debug.Log ("Force is added");
