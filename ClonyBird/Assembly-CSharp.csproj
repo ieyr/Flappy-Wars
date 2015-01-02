@@ -50,13 +50,22 @@
      <Compile Include="Assets\BirdMovement.cs" />
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\CameraTracksPlayer.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Firing.cs" />
+=======
+     <Compile Include="Assets\Compressed Gas Pistol\ReadMe.cs" />
+>>>>>>> FETCH_HEAD
      <Compile Include="Assets\GroundMover.cs" />
      <Compile Include="Assets\Mover.cs" />
      <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\ScorePoint.cs" />
      <Compile Include="Assets\StartScreenScript.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Weapon.cs" />
+=======
+     <Compile Include="Assets\UIScript.cs" />
+     <None Include="Assets\12623880787\Read mee pl0x.txt" />
+>>>>>>> FETCH_HEAD
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
