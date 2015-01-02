@@ -50,10 +50,13 @@
      <Compile Include="Assets\BirdMovement.cs" />
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\CameraTracksPlayer.cs" />
+     <Compile Include="Assets\Firing.cs" />
      <Compile Include="Assets\GroundMover.cs" />
+     <Compile Include="Assets\Mover.cs" />
      <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\ScorePoint.cs" />
      <Compile Include="Assets\StartScreenScript.cs" />
+     <Compile Include="Assets\Weapon.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

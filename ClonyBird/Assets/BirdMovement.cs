@@ -18,11 +18,10 @@ public class BirdMovement : MonoBehaviour {
 	public static int lives = 3;
 	public string tag="";
 	public bool isShot = false;
-
 	// Use this for initialization
 	void Start () {
 		animator = transform.GetComponentInChildren<Animator>();
-		InvokeRepeating("shootUpdate", 0f, 1f);
+		
 
 		if(animator == null) {
 			Debug.LogError("Didn't find animator!");
@@ -48,7 +47,7 @@ public class BirdMovement : MonoBehaviour {
 	}
 
 
-
+	
 	
 	// Do physics engine updates here
 	void FixedUpdate () {
@@ -85,4 +84,8 @@ public class BirdMovement : MonoBehaviour {
 		dead = true;
 		deathCooldown = 0.5f;
 	}
+	
+		
+
+
 }
